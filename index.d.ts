@@ -7,7 +7,7 @@ declare class CustomElementRegistry {
     },
   ): void
 
-  get(tagName: string): ({ new (): HTMLElement }) | undefined
+  get(tagName: string): { new (): HTMLElement } | undefined
 
   whenDefined(tagName: string): Promise<void>
 }
