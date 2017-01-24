@@ -16,5 +16,6 @@
     "types",
     "web-components",
     "custom-elements"
-  ]
+  ],
+  "license": "MIT"
 }
