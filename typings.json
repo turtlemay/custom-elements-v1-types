@@ -1,0 +1,5 @@
+{
+  "name": "custom-elements",
+  "browser": "index.d.ts",
+  "global": true
+}
