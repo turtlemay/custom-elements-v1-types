@@ -5,5 +5,5 @@ TypeScript type definitions for [Custom Elements v1](https://developers.google.c
 Add a [reference directive](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) to your type definition file or source files:
 
 ```javascript
-/// <reference path="node_modules/typed-custom-elements-v1/index.d.ts" />
+/// <reference path="typed-custom-elements-v1/index.d.ts" />
 ```
