@@ -1,15 +1,15 @@
 declare class CustomElementRegistry {
-  define: (
+  define(
     tagName: string,
-    constructor: new () => HTMLElement,
+    constructor: { new (): HTMLElement },
     options?: {
       extends?: string,
     },
-  ) => void
+  ): void
 
-  get: (tagName: string) => (new () => HTMLElement) | undefined
+  get(tagName: string): ({ new (): HTMLElement }) | undefined
 
-  whenDefined: (tagName: string) => Promise<void>
+  whenDefined(tagName: string): Promise<void>
 }
 
 declare const customElements: CustomElementRegistry
