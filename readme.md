@@ -3,7 +3,7 @@ TypeScript type definitions for [Custom Elements v1](https://developers.google.c
 ## Installation
 
 ```
-npm install --save-dev custom-elements-v1-types
+npm install --save-dev typed-custom-elements-v1
 ```
 
 ## Usage
@@ -11,5 +11,5 @@ npm install --save-dev custom-elements-v1-types
 Add a [reference directive](https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html) to your type definition file or source files:
 
 ```javascript
-/// <reference path="node_modules/custom-elements-v1-types/index.d.ts" />
+/// <reference path="node_modules/typed-custom-elements-v1/index.d.ts" />
 ```
