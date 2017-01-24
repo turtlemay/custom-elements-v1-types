@@ -1,0 +1,20 @@
+{
+  "name": "custom-elements-v1-types",
+  "description": "TypeScript type definitions for Custom Elements v1.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Turtlemay",
+    "email": "turtlemay@me.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turtlemay/custom-elements-v1-types.git"
+  },
+  "keywords": [
+    "typescript",
+    "typings",
+    "types",
+    "web-components",
+    "custom-elements"
+  ]
+}
